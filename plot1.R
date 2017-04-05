@@ -14,7 +14,7 @@ Time <- strptime(paste(mydata2$Date, mydata2$Time), format="%Y-%m-%d %H:%M:%S")
 EPC<- cbind(Time, mydata2[,3:9])
 
 # Plot 1
-png(file = "plot1.png", bg = "transparent", width = 480, height = 480, units = "px")
+png(file = "plot1.png", bg = "white", width = 480, height = 480, units = "px")
 
 hist(EPC$Global_active_power, col="red", xlab="Global Active Power (kilowatts)", 
      ylab="Frequency", main="Global Active Power")

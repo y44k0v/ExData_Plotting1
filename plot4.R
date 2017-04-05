@@ -1,7 +1,7 @@
 #Run first 14 lines of plot1.R to create the data set
 
 # Plot 4
-png(file = "plot4.png", bg = "transparent", width = 480, height = 480, units = "px")
+png(file = "plot4.png", bg = "white", width = 480, height = 480, units = "px")
 
 par(mfcol = c(2,2))                             
 

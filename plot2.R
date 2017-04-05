@@ -2,7 +2,7 @@
 
 # Plot 2
 
-png(file = "plot2.png", bg = "transparent", width = 480, height = 480, units = "px")
+png(file = "plot2.png", bg = "white", width = 480, height = 480, units = "px")
 
 plot(Time,EPC$Global_active_power, type="l", xlab="", 
      ylab="Global Active Power (kilowatts)")

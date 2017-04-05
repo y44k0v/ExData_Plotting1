@@ -2,7 +2,7 @@
 
 # Plot 3
 
-png(file = "plot3.png", bg = "transparent", width = 480, height = 480, units = "px")
+png(file = "plot3.png", bg = "white", width = 480, height = 480, units = "px")
 
 plot(Time, EPC$Sub_metering_1, type="l", xlab="", ylab="Energy sub metering")
 lines(Time,EPC$Sub_metering_2, col="red")
